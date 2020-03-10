@@ -1,0 +1,151 @@
+#holiday-types{
+    width: 100%;
+    margin-bottom: 56px;
+    background: url(../images/holid-type.jpg) 100% 100%;
+}
+.holiday-types-wrap{
+    width: 90%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.holiday-types-top{
+    margin: auto;
+    margin-bottom: 28px;
+}
+.holiday-types-top > h3{
+    font-size: 24px;
+    text-align: center;
+    color: var(--colorMain);
+}
+.holiday-types-top > span{
+    color: #9FB0C0;
+}
+.holiday-types-grids{
+    margin: auto;
+}
+.holiday-types-grids2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.holiday-type-grid3{
+    display: none;
+}
+@media only screen and (max-width: 1044px){
+    .holiday-types-grids2{
+        display: none;
+    }
+    .holiday-types-grids{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .holiday-type-grid3{
+        display: flex;
+    }
+    .holiday-type-grid3 > div{
+        margin: 0 14px;
+    }
+}
+@media only screen and (max-width: 570px){
+    .holiday-types-grids2{
+        display: flex;
+    }
+    .holiday-type-grid3{
+        display: none;
+    }
+    .holiday-types-grids2 > div{
+        margin: 0 14px;
+    }
+}
+.holiday-type-grid > a{
+    color: #9FB0C0;
+}
+.holiday-type-grid{
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+}
+.holiday-type-grid > a{
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.holiday-icon1{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat 0px -126px;
+    cursor: pointer;
+}
+.holiday-icon2{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat -155px -126px;
+    cursor: pointer;
+}
+.holiday-icon3{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat -309px -126px;
+    cursor: pointer;
+}
+.holiday-icon4{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat -464px -126px;
+    cursor: pointer;
+}
+.holiday-icon5{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat -620px -126px;
+    cursor: pointer;
+}
+.holiday-icon6{
+    width: 126px;
+    height: 126px;
+    background: url(../images/big-icons.png) no-repeat -775px -126px;
+    cursor: pointer;
+}
+.holiday-icon1:hover{
+    background: url(../images/big-icons.png) no-repeat 0px 2px;
+}
+.holiday-icon2:hover{
+    background: url(../images/big-icons.png) no-repeat -155px 2px;
+}
+.holiday-icon3:hover{
+    background: url(../images/big-icons.png) no-repeat -309px 2px;
+}
+.holiday-icon4:hover{
+    background: url(../images/big-icons.png) no-repeat -464px 2px;
+}
+.holiday-icon5:hover{
+    background: url(../images/big-icons.png) no-repeat -620px 2px;
+}
+.holiday-icon6:hover{
+    background: url(../images/big-icons.png) no-repeat -775px 2px;
+}
+.holiday-type-grid:hover a{
+    color: var(--colorHoverMain);
+}
+.holiday-type-grid:hover .holiday-icon1{
+    background: url(../images/big-icons.png) no-repeat 0px 2px;
+}
+.holiday-type-grid:hover .holiday-icon2{
+    background: url(../images/big-icons.png) no-repeat -155px 2px;
+}
+.holiday-type-grid:hover .holiday-icon3{
+    background: url(../images/big-icons.png) no-repeat -309px 2px;
+}
+.holiday-type-grid:hover .holiday-icon4{
+    background: url(../images/big-icons.png) no-repeat -464px 2px;
+}
+.holiday-type-grid:hover .holiday-icon5{
+    background: url(../images/big-icons.png) no-repeat -620px 2px;
+}
+.holiday-type-grid:hover .holiday-icon6{
+    background: url(../images/big-icons.png) no-repeat -775px 2px;
+}

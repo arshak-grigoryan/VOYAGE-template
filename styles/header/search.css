@@ -1,0 +1,37 @@
+.form-wrap{
+    width: 42px;
+}
+#form-search{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+}
+#form-search > input{
+    display: none;
+    width: 0;
+    transition: 0.75s;
+    font-size: 20px;
+    outline: none;
+    padding: 0 7px;
+    border: none;
+}
+.search-icon{
+    width: 42px;
+    height: 42px;
+}
+.menu-burger{
+    display: none;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.menu-burger > i{
+    font-size: 42px;
+    color: var(--colorBGMain);
+}
+
+@media only screen and (max-width: 1024px){
+    .menu-burger{
+        display: block;
+    }
+} 

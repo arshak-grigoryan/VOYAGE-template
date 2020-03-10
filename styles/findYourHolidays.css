@@ -1,0 +1,157 @@
+#find-your-holiday{
+    background: var(--colorBGMain);
+    margin-bottom: 56px;
+    border-top: 1px solid rgb(68, 90, 112);
+    border-bottom: 1px solid rgb(68, 90, 112);
+}
+.find-your-holiday-wrap{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.find-your-holiday-class{
+    width: 13%;
+    display: flex;
+    align-items: center;
+}
+.fyhc{
+    flex-direction: column;
+}
+.find-your{
+    margin-bottom: 7px;
+    color: var(--colorInput);
+    font-size: 14px;
+}
+.holydays{
+    color: var(--colorMain);
+    font-size: 18px;
+    font-weight: 600;
+}
+.border-size{
+    width: 2%;
+}
+.border{
+    width: 10px;
+    height: 80px;
+    background: url(../images/border.png) 0px -10px;
+}
+.where-when-form{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.where-input, .when-input {
+    width: 44%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.where-input > label, .when-input > label{
+    width: 20%;
+    margin-right: 14px;
+    color: var(--colorInput);
+    font-size: 18px;
+}
+.input-id{
+    width: 80%;
+    position: relative;
+}
+#destination, #select-data{
+    width: 90%;
+    padding: 11px;
+    margin-right: 21px;
+    border: none;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.earth-icon,.calendar-icon{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 11%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.earth-icon{
+    background: url(../images/02.png);
+}
+.calendar-icon{
+    background: url(../images/cal-icon.png);
+}
+.where-when-submit{
+    width: 12%;
+}
+#submit-search{
+    padding: 11px;
+    border: none;
+    border-radius: 1px;
+    background-color: var(--colorHoverMain);
+    transition: 0.25s;
+    cursor: pointer;
+}
+#submit-search:hover{
+    background-color: #9FB0C0;
+}
+
+@media only screen and (max-width: 1200px){
+    .find-your-holiday-wrap{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .find-your-holiday-wrap{
+        width: 80%;
+    }
+    .find-your-holiday-class{
+        width: 100%;
+    }
+    .fyhc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .find-your{
+        margin-bottom: 0;
+        margin-right: 14px;
+    }
+    .border-size{
+        display: none;
+    }
+    .find-your-holiday-wrap{
+        padding: 14px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .where-when-form{
+        width: 100%;
+        flex-direction: column;
+        align-items: initial;
+    }
+    .where-input, .when-input{
+        width: 100%;
+        flex-direction: column;
+        align-items: initial;
+    }
+    #destination, #select-data{
+        width: 100%;
+    }
+    .input-id{
+        width: 100%;
+    }
+    .earth-icon,.calendar-icon{
+        right: 1%;
+    }
+    .where-input > label, .when-input > label{
+        margin: 28px 0;
+    }
+    .where-when-submit{
+        width: 100%;
+        margin-top: 35px;
+    }
+    #submit-search{
+        width: 100%;
+    }
+}
