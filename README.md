@@ -1,2 +1,2 @@
 # VOYAGE-template
-https://github.com/arshak-grigoryan/VOYAGE-template
+https://arshak-grigoryan.github.io/VOYAGE-template/
